@@ -1,0 +1,68 @@
+body {
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+h1 {
+  font-size: 300;
+}
+
+.header {
+  height: 64px;
+  width: 100%;
+  background-color: #ee3124;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.content {
+  margin: 0 auto;
+  width: 900px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  display: block;
+  padding: 20px;
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.2);
+  padding-bottom: 100px;
+  min-height: 100px;
+}
+
+.hdr {
+  font-size: 22px;
+  font-weight: 300;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.input {
+  width: 100%;
+  line-height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  border: 1px solid #eee;
+  background-color: #f8f8f8;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.button {
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #2980b9;
+  margin-top: 20px;
+  color: #fff;
+  width: 100%;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,0.09),0 1px 10px 0 rgba(0,0,0,0.09),0 2px 4px -1px rgba(0,0,0,0.2);
+}
+
+
+.button:hover {
+  background-color: #387BA8;
+}
